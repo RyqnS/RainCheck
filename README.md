@@ -19,7 +19,7 @@ A Dark-mode enabled weather app that can check the weather for the current locat
   
 2) Updated API call to go through and additional Geocoding API: API call now first retrieves coordinates from city location and uses coordinates to retrieve weather
   - This change was made to add another degree of accuracy to tell the user precisely what location's weather their search found, rather than a large region such as "China"
-  - The openweather API used in the project also changed to require latitude and longitude inputs to a call, so using a Geocoding API to retrieve latitude and longitude from a city input was necessary
+  - The openweather API used in the project also changed to require latitude and longitude inputs to a call, so I needed to retrieve latitude and longitude from a city input first
 
 ## What I learned
 
@@ -35,7 +35,3 @@ A Dark-mode enabled weather app that can check the weather for the current locat
 * Parse JSON with the native Encodable and Decodable protocols. 
 * Learn to use Grand Central Dispatch to fetch the main thread.
 * Learn to use Core Location to get the current location from the phone GPS. 
-
-![App Brewery Banner](Documentation/AppBreweryBanner.png)
-![End Banner](Documentation/readme-end-banner.png)
-
