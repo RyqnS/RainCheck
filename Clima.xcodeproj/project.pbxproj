@@ -3,33 +3,61 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		ADAA27B1231BBFAF00365194 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAA27B0231BBFAF00365194 /* AppDelegate.swift */; };
 		ADAA27B3231BBFAF00365194 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAA27B2231BBFAF00365194 /* SceneDelegate.swift */; };
-		ADAA27B5231BBFAF00365194 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAA27B4231BBFAF00365194 /* WeatherViewController.swift */; };
 		ADAA27B8231BBFAF00365194 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADAA27B6231BBFAF00365194 /* Main.storyboard */; };
 		ADAA27BA231BBFB300365194 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADAA27B9231BBFB300365194 /* Assets.xcassets */; };
 		ADAA27BD231BBFB300365194 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADAA27BB231BBFB300365194 /* LaunchScreen.storyboard */; };
-		ADAA27C6231BC02C00365194 /* light_background.pdf in Resources */ = {isa = PBXBuildFile; fileRef = ADAA27C4231BC02B00365194 /* light_background.pdf */; };
-		ADAA27C7231BC02C00365194 /* dark_background.pdf in Resources */ = {isa = PBXBuildFile; fileRef = ADAA27C5231BC02B00365194 /* dark_background.pdf */; };
 		ADAA27CE231BC87F00365194 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = ADAA27CD231BC87F00365194 /* README.md */; };
+		DA23DB3B2A3A4E8B00D132CB /* RainFall.sks in Resources */ = {isa = PBXBuildFile; fileRef = DA23DB3A2A3A4E8B00D132CB /* RainFall.sks */; };
+		DA23DB3D2A3A549900D132CB /* WeatherDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA23DB3C2A3A549900D132CB /* WeatherDrawer.swift */; };
+		DA23DB402A3AAF8D00D132CB /* Fog.sks in Resources */ = {isa = PBXBuildFile; fileRef = DA23DB3E2A3AAF8D00D132CB /* Fog.sks */; };
+		DA23DB412A3AAF8D00D132CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA23DB3F2A3AAF8D00D132CB /* Assets.xcassets */; };
+		DA23DB432A3AB23800D132CB /* RainScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA23DB422A3AB23800D132CB /* RainScene.swift */; };
+		DA23DB462A3ACC0600D132CB /* SnowScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = DA23DB442A3ACC0600D132CB /* SnowScene.sks */; };
+		DA23DB472A3ACC0600D132CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA23DB452A3ACC0600D132CB /* Assets.xcassets */; };
+		DA23DB492A3ACC3800D132CB /* SnowScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA23DB482A3ACC3800D132CB /* SnowScene.swift */; };
+		DA23DB4B2A3AD65100D132CB /* FogScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA23DB4A2A3AD65100D132CB /* FogScene.swift */; };
+		DA23DB4F2A3B718F00D132CB /* Thunder.sks in Resources */ = {isa = PBXBuildFile; fileRef = DA23DB4E2A3B718F00D132CB /* Thunder.sks */; };
+		DA23DB592A3BB17200D132CB /* SunScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA23DB582A3BB17200D132CB /* SunScene.swift */; };
+		DA71AE002A38E04600844459 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA71ADFF2A38E04600844459 /* WeatherData.swift */; };
+		DA71AE022A38ED2C00844459 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA71AE012A38ED2C00844459 /* WeatherModel.swift */; };
+		DA71AE0A2A395F1300844459 /* WeatherViewControlle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA71AE092A395F1300844459 /* WeatherViewControlle.swift */; };
+		DA7FBCFD2A40A6A9000F22D9 /* GeoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7FBCFC2A40A6A9000F22D9 /* GeoData.swift */; };
+		DA7FBCFF2A40AC2A000F22D9 /* GeoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7FBCFE2A40AC2A000F22D9 /* GeoModel.swift */; };
+		DAE55DAF2A37C38500E8A38E /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE55DAE2A37C38500E8A38E /* WeatherManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ADAA27AD231BBFAF00365194 /* Clima.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clima.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADAA27B0231BBFAF00365194 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADAA27B2231BBFAF00365194 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ADAA27B4231BBFAF00365194 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
 		ADAA27B7231BBFAF00365194 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ADAA27B9231BBFB300365194 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADAA27BC231BBFB300365194 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ADAA27BE231BBFB300365194 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ADAA27C4231BC02B00365194 /* light_background.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = light_background.pdf; sourceTree = "<group>"; };
-		ADAA27C5231BC02B00365194 /* dark_background.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = dark_background.pdf; sourceTree = "<group>"; };
 		ADAA27CD231BC87F00365194 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DA23DB3A2A3A4E8B00D132CB /* RainFall.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = RainFall.sks; sourceTree = "<group>"; };
+		DA23DB3C2A3A549900D132CB /* WeatherDrawer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDrawer.swift; sourceTree = "<group>"; };
+		DA23DB3E2A3AAF8D00D132CB /* Fog.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Fog.sks; sourceTree = "<group>"; };
+		DA23DB3F2A3AAF8D00D132CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA23DB422A3AB23800D132CB /* RainScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainScene.swift; sourceTree = "<group>"; };
+		DA23DB442A3ACC0600D132CB /* SnowScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SnowScene.sks; sourceTree = "<group>"; };
+		DA23DB452A3ACC0600D132CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA23DB482A3ACC3800D132CB /* SnowScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowScene.swift; sourceTree = "<group>"; };
+		DA23DB4A2A3AD65100D132CB /* FogScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FogScene.swift; sourceTree = "<group>"; };
+		DA23DB4E2A3B718F00D132CB /* Thunder.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Thunder.sks; sourceTree = "<group>"; };
+		DA23DB582A3BB17200D132CB /* SunScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunScene.swift; sourceTree = "<group>"; };
+		DA71ADFF2A38E04600844459 /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = SOURCE_ROOT; };
+		DA71AE012A38ED2C00844459 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = SOURCE_ROOT; };
+		DA71AE092A395F1300844459 /* WeatherViewControlle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewControlle.swift; sourceTree = "<group>"; };
+		DA7FBCFC2A40A6A9000F22D9 /* GeoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoData.swift; sourceTree = "<group>"; };
+		DA7FBCFE2A40AC2A000F22D9 /* GeoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoModel.swift; sourceTree = "<group>"; };
+		DAE55DAE2A37C38500E8A38E /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +74,9 @@
 		ADAA27A4231BBFAF00365194 = {
 			isa = PBXGroup;
 			children = (
+				DA23DB3F2A3AAF8D00D132CB /* Assets.xcassets */,
 				ADAA27CD231BC87F00365194 /* README.md */,
+				DA23DB3C2A3A549900D132CB /* WeatherDrawer.swift */,
 				ADAA27AF231BBFAF00365194 /* Clima */,
 				ADAA27AE231BBFAF00365194 /* Products */,
 			);
@@ -67,22 +97,16 @@
 				ADAA27B2231BBFAF00365194 /* SceneDelegate.swift */,
 				ADAA27CA231BC3FA00365194 /* Model */,
 				ADAA27C9231BC3F200365194 /* View */,
-				ADAA27C8231BC3E500365194 /* Controller */,
+				DA71AE0C2A3A1B4200844459 /* Controller */,
 				ADAA27B9231BBFB300365194 /* Assets.xcassets */,
 				ADAA27BB231BBFB300365194 /* LaunchScreen.storyboard */,
 				ADAA27BE231BBFB300365194 /* Info.plist */,
-				ADAA27C5231BC02B00365194 /* dark_background.pdf */,
-				ADAA27C4231BC02B00365194 /* light_background.pdf */,
+				DA23DB442A3ACC0600D132CB /* SnowScene.sks */,
+				DA23DB3A2A3A4E8B00D132CB /* RainFall.sks */,
+				DA23DB3E2A3AAF8D00D132CB /* Fog.sks */,
+				DA23DB4E2A3B718F00D132CB /* Thunder.sks */,
 			);
 			path = Clima;
-			sourceTree = "<group>";
-		};
-		ADAA27C8231BC3E500365194 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				ADAA27B4231BBFAF00365194 /* WeatherViewController.swift */,
-			);
-			path = Controller;
 			sourceTree = "<group>";
 		};
 		ADAA27C9231BC3F200365194 /* View */ = {
@@ -96,8 +120,26 @@
 		ADAA27CA231BC3FA00365194 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				DAE55DAE2A37C38500E8A38E /* WeatherManager.swift */,
+				DA71ADFF2A38E04600844459 /* WeatherData.swift */,
+				DA7FBCFC2A40A6A9000F22D9 /* GeoData.swift */,
+				DA7FBCFE2A40AC2A000F22D9 /* GeoModel.swift */,
+				DA71AE012A38ED2C00844459 /* WeatherModel.swift */,
+				DA23DB422A3AB23800D132CB /* RainScene.swift */,
+				DA23DB482A3ACC3800D132CB /* SnowScene.swift */,
+				DA23DB4A2A3AD65100D132CB /* FogScene.swift */,
+				DA23DB582A3BB17200D132CB /* SunScene.swift */,
+				DA23DB452A3ACC0600D132CB /* Assets.xcassets */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		DA71AE0C2A3A1B4200844459 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DA71AE092A395F1300844459 /* WeatherViewControlle.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +168,9 @@
 		ADAA27A5231BBFAF00365194 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastUpgradeCheck = 1430;
 				ORGANIZATIONNAME = "App Brewery";
 				TargetAttributes = {
 					ADAA27AC231BBFAF00365194 = {
@@ -158,12 +201,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA23DB402A3AAF8D00D132CB /* Fog.sks in Resources */,
+				DA23DB462A3ACC0600D132CB /* SnowScene.sks in Resources */,
 				ADAA27CE231BC87F00365194 /* README.md in Resources */,
-				ADAA27C7231BC02C00365194 /* dark_background.pdf in Resources */,
 				ADAA27BD231BBFB300365194 /* LaunchScreen.storyboard in Resources */,
+				DA23DB4F2A3B718F00D132CB /* Thunder.sks in Resources */,
 				ADAA27BA231BBFB300365194 /* Assets.xcassets in Resources */,
+				DA23DB412A3AAF8D00D132CB /* Assets.xcassets in Resources */,
+				DA23DB3B2A3A4E8B00D132CB /* RainFall.sks in Resources */,
+				DA23DB472A3ACC0600D132CB /* Assets.xcassets in Resources */,
 				ADAA27B8231BBFAF00365194 /* Main.storyboard in Resources */,
-				ADAA27C6231BC02C00365194 /* light_background.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,9 +221,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADAA27B5231BBFAF00365194 /* WeatherViewController.swift in Sources */,
+				DA7FBCFF2A40AC2A000F22D9 /* GeoModel.swift in Sources */,
+				DA71AE002A38E04600844459 /* WeatherData.swift in Sources */,
+				DA7FBCFD2A40A6A9000F22D9 /* GeoData.swift in Sources */,
 				ADAA27B1231BBFAF00365194 /* AppDelegate.swift in Sources */,
+				DA23DB432A3AB23800D132CB /* RainScene.swift in Sources */,
+				DA23DB592A3BB17200D132CB /* SunScene.swift in Sources */,
+				DA23DB492A3ACC3800D132CB /* SnowScene.swift in Sources */,
+				DAE55DAF2A37C38500E8A38E /* WeatherManager.swift in Sources */,
+				DA23DB3D2A3A549900D132CB /* WeatherDrawer.swift in Sources */,
+				DA71AE022A38ED2C00844459 /* WeatherModel.swift in Sources */,
 				ADAA27B3231BBFAF00365194 /* SceneDelegate.swift in Sources */,
+				DA71AE0A2A395F1300844459 /* WeatherViewControlle.swift in Sources */,
+				DA23DB4B2A3AD65100D132CB /* FogScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,6 +285,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -288,6 +346,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
