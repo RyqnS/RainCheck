@@ -36,5 +36,6 @@ A Dark-mode enabled weather app that can check the weather for the current locat
 * Learn to use Grand Central Dispatch to fetch the main thread.
 * Learn to use Core Location to get the current location from the phone GPS. 
 
-
+![App Brewery Banner](Documentation/AppBreweryBanner.png)
+![End Banner](Documentation/readme-end-banner.png)
 
