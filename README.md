@@ -1,4 +1,5 @@
 # RainCheck App
+>This is a companion project to The App Brewery's Complete App Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
 
 ## Goal
 
@@ -36,6 +37,4 @@ A Dark-mode enabled weather app that can check the weather for the current locat
 * Learn to use Core Location to get the current location from the phone GPS. 
 
 
->This is a companion project to The App Brewery's Complete App Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
 
-![End Banner](Documentation/readme-end-banner.png)
